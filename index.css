@@ -1,0 +1,99 @@
+html,
+body{
+    height: 100%;
+    font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+    background-color:hsl(212, 45%, 89%)
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(30, 38%, 92%);
+    /* justify-items: flex-end; */
+}
+.main1{overflow: hidden;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    width: 18rem;
+    height:29rem;
+    /* padding-left: 0%;
+    padding-right: 0%; */
+}
+.main2{
+    overflow: hidden;
+    background-color: white;
+    overflow: hidden;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 18rem;
+    height: 29rem;
+
+}
+    
+p{
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    font-size: 1rem;
+    color: hsl(228, 12%, 48%);
+}
+.heading{
+    padding-left: 2rem;
+    padding-right: 2.3rem;
+    font-family:'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+.item{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.price1{
+    /* padding-left: 1.5rem; */
+    font-family:'Fraunces', serif;
+    color:hsl(158, 36%, 37%);
+}
+.price2{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+#cart-button{
+    margin-left: 100px;
+    padding-left: 1.5rem;
+}
+.button {
+    margin-left: 2rem;
+    padding-left: 1.54rem;
+    background-color: hsl(158, 36%, 37%);
+    border: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 14rem;
+    border-radius: 9%;
+  }
+  .button:hover{
+    background-color: hsl(167, 41%, 28%);
+  }
+  #product-img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
